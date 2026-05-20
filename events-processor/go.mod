@@ -1,16 +1,16 @@
 module github.com/getlago/lago/events-processor
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/getlago/lago-expression/expression-go v0.1.4
 	github.com/getsentry/sentry-go v0.31.1
-	github.com/jackc/pgx/v5 v5.7.2
+	github.com/jackc/pgx/v5 v5.9.2
 	github.com/orandin/slog-gorm v1.4.0
 	github.com/redis/go-redis/extra/redisotel/v9 v9.7.3
 	github.com/redis/go-redis/v9 v9.7.3
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/twmb/franz-go v1.18.1
 	github.com/twmb/franz-go/plugin/kotel v1.5.0
 	github.com/twmb/franz-go/plugin/kslog v1.0.0
@@ -50,9 +50,9 @@ require (
 	go.opentelemetry.io/proto/otlp v1.5.0 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250115164207-1a7da9e5054f // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
 	google.golang.org/protobuf v1.36.3 // indirect
